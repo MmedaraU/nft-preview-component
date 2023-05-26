@@ -1,0 +1,107 @@
+/*================= Custom Styles =====================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  max-width: 100vw;
+  background-color: #0d192b;
+  font-family: Outfit, Arial, sans-serif;
+  color: #8bacda;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #14253d;
+  width: 28rem;
+  padding: 1.2rem;
+  border-radius: 1.35rem;
+  -webkit-border-radius: 1.35rem;
+  -moz-border-radius: 1.35rem;
+  -ms-border-radius: 1.35rem;
+  -o-border-radius: 1.35rem;
+}
+
+section img {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 1.35rem;
+  -webkit-border-radius: 1.35rem;
+  -moz-border-radius: 1.35rem;
+  -ms-border-radius: 1.35rem;
+  -o-border-radius: 1.35rem;
+}
+
+/*========= Typography =========*/
+h2 {
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.pricing, .creator {
+  display: flex;
+  align-items: center;
+}
+
+.pricing {
+  justify-content: space-between;
+}
+
+.pricing span img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.pricing span:nth-of-type(1) {
+  color: #00fff7;
+}
+
+.creator {
+  margin-top: 1rem;
+}
+
+.creator img {
+  height: 5rem;
+  width: 5rem;
+  margin-right: 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.creator span {
+  color: white;
+}
+
+/*========= Footer =========*/
+.attribution {
+  font-size: 0.785rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
