@@ -11,6 +11,13 @@ body {
   background-color: #0d192b;
   font-family: Outfit, Arial, sans-serif;
   color: #8bacda;
+  font-weight: 300;
+}
+
+hr {
+  height: 2px;
+  background-color: #2f415b;
+  border: none;
 }
 
 main {
@@ -21,6 +28,7 @@ main {
   flex-direction: column;
 }
 
+/*========= Card =========*/
 section {
   display: flex;
   flex-direction: column;
@@ -34,6 +42,7 @@ section {
   -moz-border-radius: 1.35rem;
   -ms-border-radius: 1.35rem;
   -o-border-radius: 1.35rem;
+  /*========= Card Image =========*/
 }
 
 section img {
@@ -46,11 +55,34 @@ section img {
   -o-border-radius: 1.35rem;
 }
 
+/*========= Card Image Hover Effects =========*/
+.overlay {
+  height: 25rem;
+  width: 25rem;
+  position: absolute;
+}
+
+.overlay:hover {
+  display: block;
+  background-color: #00fff7;
+  background-image: url(../images/icon-view.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
 /*========= Typography =========*/
 h2 {
-  color: white;
+  color: #fff;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+h2:hover {
+  color: #00fff7;
+  cursor: pointer;
 }
 
 p {
@@ -58,6 +90,7 @@ p {
   font-size: 1.2rem;
 }
 
+/*========= Price section =========*/
 .pricing, .creator {
   display: flex;
   align-items: center;
@@ -65,6 +98,7 @@ p {
 
 .pricing {
   justify-content: space-between;
+  font-weight: 400;
 }
 
 .pricing span img {
@@ -76,6 +110,7 @@ p {
   color: #00fff7;
 }
 
+/*========= Creator section: Below the Horizontal Rule =========*/
 .creator {
   margin-top: 1rem;
 }
@@ -84,7 +119,7 @@ p {
   height: 5rem;
   width: 5rem;
   margin-right: 1rem;
-  border: 1px solid white;
+  border: 1px solid #fff;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -93,7 +128,12 @@ p {
 }
 
 .creator span {
-  color: white;
+  color: #fff;
+}
+
+.creator span:hover {
+  color: #00fff7;
+  cursor: pointer;
 }
 
 /*========= Footer =========*/
