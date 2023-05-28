@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/nft-preview-component-built-with-flexbox-qpiPpin3J9)
 - [Live Site URL](https://mmedarau.github.io/nft-preview-component/)
 
 ## My process
