@@ -73,14 +73,14 @@ section img {
 }
 
 /*========= Typography =========*/
-h2 {
+h1, h2 {
   color: #fff;
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: 600;
 }
 
-h2:hover {
+h1:hover, h2:hover {
   color: #00fff7;
   cursor: pointer;
 }
